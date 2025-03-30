@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Lab10</title>
+        <link rel="stylesheet" href="styles.css">
+        <style>
+
+            .part1 {display: flex;
+                    flex-wrap: wrap;
+                    padding: 20px;}
+            .part1 {margin: 20px}
+            .part1 {display: flex; gap: 30px;}
+            .part1 {flex: 2; order: 1; background-color: rgb(255, 255, 255); border-radius: 1em;}
+
+            .part2 {display: flex;
+                    flex-wrap: wrap;
+                    margin: 20px;
+                    padding: 20px;
+                    background-color: rgb(255, 255, 255); border-radius: 1em;
+                    justify-content: space-between;}
+            
+            .section2, .section3 {margin: 10px}
+            .section2 {flex:2; order: 2; background-color: rgb(255, 255, 255); border-radius: 1em;}
+            .section3 {flex:2; order: 1; background-color: rgb(255, 255, 255); border-radius: 1em;}
+
+        </style>
+    </head>
+
+    <body>
+        <nav>
+            <a href="index.html" target="_blank">Home</a><span>|</span>
+            <a href="skills.html" target="_blank">Skills</a><span>|</span>
+            <a href="contact.html" target="_blank">Contact</a>
+        </nav>
+        <h1>Contact</h1>
+        <p>Name: Robert</p><br> 
+        <div class="part1">
+            
+            <div>
+                <p>Address: 410 Winding Ridge Road</p>
+                <p>410 Winding Ridge Road</p>
+                <p>Syracuse, NY 13244</p>
+            </div>
+            <div>
+                <a href="https://www.linkedin.com/in/robertguo2004/" target="_blank"><img src="../images/LinkedIn-Logo.png" alt="Image of LinkedIn">My LinkedIn Profile</a>
+                
+                <p><a href="mailto:yguo114@syr.edu">yguo114@syr.edu</a></p>
+            </div>
+            
+        </div>
+        
+        <div class="part2">
+            <div>
+                <h2>Form</h2>
+                <form action="https://formspree.io/f/mbldkowd" method="POST">
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname" name="fname"><br><br>
+                        
+                    <h3>Gender:</h3>
+                        <input type="radio" id="gender1" name="gender" value="Male">
+                        <label for="gender1">Male</label><br>
+                        <input type="radio" id="gender2" name="gender" value="Female">
+                        <label for="gender2">Female</label><br><br>
+
+                        <label for="comments">Comment:</label><br>
+                        <textarea id="comments" name="comments" rows="6" cols="60" placeholder="Enter Text..."></textarea><br><br>
+
+                    <input type="submit" value="Submit"><br><br><br>
+
+                    </form>
+            </div>
+
+            <div>
+                <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2917.3134417613696!2d-76.12269878784092!3d43.01378929342995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f49b4a3faf3b%3A0x8dfc98948549bd25!2s410%20Winding%20Ridge%20Rd%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1szh-CN!2sus!4v1738463508433!5m2!1szh-CN!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+            </div>
+            
+        </div>
+
+    </body>
+
+    
+
+</html>
